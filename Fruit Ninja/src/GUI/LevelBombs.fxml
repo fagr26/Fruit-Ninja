@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.LevelBombs">
+   <children>
+      <ImageView fx:id="background2" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="watermelon" fitHeight="57.0" fitWidth="119.0" layoutX="14.0" layoutY="328.0" onMouseClicked="#moveWatermelon" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="apple" fitHeight="68.0" fitWidth="127.0" layoutX="213.0" layoutY="332.0" onMouseClicked="#moveApple" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pineapple" fitHeight="75.0" fitWidth="127.0" layoutX="450.0" layoutY="319.0" onMouseClicked="#movePine" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fruitSlice" fitHeight="68.0" fitWidth="127.0" layoutX="193.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="heart1" fitHeight="46.0" fitWidth="72.0" layoutX="378.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="heart2" fitHeight="46.0" fitWidth="72.0" layoutX="431.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="heart3" fitHeight="46.0" fitWidth="72.0" layoutX="503.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="save" layoutX="218.0" layoutY="14.0" mnemonicParsing="false" onAction="#Save" text="Save" />
+      <Button fx:id="load" layoutX="301.0" layoutY="14.0" mnemonicParsing="false" onAction="#Load" text="Load" />
+      <Label fx:id="label" layoutX="254.0" layoutY="75.0" prefHeight="28.0" prefWidth="55.0" text="Label" />
+      <Label fx:id="label1" layoutX="319.0" layoutY="76.0" text="Label" />
+   </children>
+</AnchorPane>

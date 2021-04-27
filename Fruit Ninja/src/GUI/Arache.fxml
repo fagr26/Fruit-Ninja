@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane fx:id="anchorpane" prefHeight="397.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Arache">
+   <children>
+      <ImageView fx:id="background2" fitHeight="397.0" fitWidth="601.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="watermelon" fitHeight="117.0" fitWidth="153.0" layoutX="21.0" layoutY="250.0" onMousePressed="#moveWatermelon" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="apple" fitHeight="135.0" fitWidth="167.0" layoutX="174.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pineapple" fitHeight="125.0" fitWidth="136.0" layoutX="428.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fruitSlice" fitHeight="135.0" fitWidth="153.0" layoutX="14.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="maisoon" layoutX="19.0" layoutY="17.0" prefHeight="53.0" prefWidth="136.0" text="Label" />
+   </children>
+</AnchorPane>
